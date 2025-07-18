@@ -47,3 +47,5 @@ api/node_modules/
 
 *.zip
 *.mp4
+
+.terraform.tfstate.lock.info

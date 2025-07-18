@@ -48,11 +48,11 @@ jobs:
             -var="domain_name=${{ secrets.DOMAIN_NAME }}" \
             -var="environment=dev"
 
-      - name: 🚀 Terraform Apply (manual trigger only)
-        if: github.event_name == 'workflow_dispatch'
-        run: |
-          terraform apply \
-            -auto-approve \
-            -input=false \
-            -var="domain_name=${{ secrets.DOMAIN_NAME }}" \
-            -var="environment=dev"
+          - name: 🚀 Terraform Apply (manual trigger only)
+            if: github.event_name == 'workflow_dispatch'
+            run: |
+              terraform apply \
+                -auto-approve \
+                -input=false \
+                -var="domain_name=${{ secrets.DOMAIN_NAME }}" \
+                -var="environment=dev"
