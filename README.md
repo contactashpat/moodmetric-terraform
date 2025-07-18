@@ -5,6 +5,7 @@ This is a modular, production-style Terraform setup to deploy a secure, scalable
 
 - AWS Fargate (ECS) for Dockerized Express + TypeScript API
 - API Gateway for routing, rate limiting, SSL, and JWT verification
+- 
 - Cognito for OAuth2-based identity and JWT token issuance
 - DynamoDB for serverless, scalable data storage
 - Modular Terraform design
