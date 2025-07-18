@@ -1,0 +1,16 @@
+{
+  "name": "moodmetric-terraform",
+  "version": "1.0.0",
+  "description": "## 📦 What This Is This is a modular, production-style Terraform setup to deploy a secure, scalable REST API (e.g., MoodMetric) using:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.15.3",
+    "axios": "^1.10.0"
+  }
+}
