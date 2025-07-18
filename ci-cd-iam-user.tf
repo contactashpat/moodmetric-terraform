@@ -1,5 +1,5 @@
 resource "aws_iam_user" "ci_cd_user" {
-  name = "github-actions-ci-user"
+  name = "github-actions-ci-user-v3"
 }
 
 resource "aws_iam_user_policy" "ci_cd_policy" {
